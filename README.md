@@ -1,3 +1,3 @@
 # Генератор id
 
-Основан на nanoid
+Основан на [nanoid](https://github.com/ai/nanoid)
