@@ -9,7 +9,7 @@ const copyImage = document.querySelector('.copy img')
 
 const id = number => nanoid(parseInt(number, 10));
 const createId = number => inputElement.value = id(number);
-const changeImagePath = path => copyImage.src = path;
+const changeImagePath = path => copyImage.src = `images/${path}`;
 
 createId(rangeElement.value);
 
